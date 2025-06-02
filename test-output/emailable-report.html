@@ -9,66 +9,11 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Submit Order Test</a></td><td class="num">1</td><td class="num attn">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">19,880</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Error Validation Check</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">21,445</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num attn">1</th><th class="num attn">1</th><th class="num attn">2</th><th class="num">41,325</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">Error Validation Check</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">19,989</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Submit Order Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest</td><td><a href="#m0">placeOrder</a></td><td rowspan="1">1747324363285</td><td rowspan="1">2833</td></tr><tr><th colspan="4">Submit Order Test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest</td><td><a href="#m1">orderHistory</a></td><td rowspan="1">1747324380397</td><td rowspan="1">0</td></tr><tr><th colspan="4">Submit Order Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest</td><td><a href="#m2">placeOrder</a></td><td rowspan="1">1747324370564</td><td rowspan="1">9700</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Error Validation Check &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest</td><td><a href="#m3">loginErrorCheck</a></td><td rowspan="1">1747324369847</td><td rowspan="1">980</td></tr><tr><th colspan="4">Error Validation Check &#8212; retried</th></tr><tr class="retriedeven"><td rowspan="1">Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest</td><td><a href="#m4">loginErrorCheck</a></td><td rowspan="1">1747324364429</td><td rowspan="1">1559</td></tr><tr><th colspan="4">Error Validation Check &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest</td><td><a href="#m5">productErrorCheck</a></td><td rowspan="1">1747324373228</td><td rowspan="1">8608</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Error Validation Check &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">Automation.Tests.ErrorMessageTest</td><td><a href="#m0">loginErrorCheck</a></td><td rowspan="1">1748881908829</td><td rowspan="1">308</td></tr><tr class="passedeven"><td><a href="#m1">productErrorCheck</a></td><td rowspan="1">1748881913444</td><td rowspan="1">8703</td></tr></tbody>
 </table>
-<h2>Submit Order Test</h2><h3 id="m0">Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest#placeOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Tani@2613, email=taniya09@yomail.com, productName=ADIDAS ORIGINAL}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button _ngcontent-nrg-c33=&quot;&quot; routerlink=&quot;/dashboard/cart&quot; class=&quot;btn btn-custom&quot; style=&quot;margin-top: -10px;&quot; tabindex=&quot;0&quot;&gt;...&lt;/button&gt; is not clickable at point (1285, 27). Other element would receive the click: &lt;div _ngcontent-nrg-c31=&quot;&quot; class=&quot;ngx-spinner-overlay ng-tns-c31-1 ng-trigger ng-trigger-fadeIn ng-star-inserted&quot; style=&quot;background-color: rgba(51, 51, 51, 0.8); z-index: 99999; position: fixed; opacity: 1;&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=136.0.7103.113)
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [61661e8c39453064e647e625b2a6f110, clickElement {id=f.268803FA60524B117D659423F72117DE.d.CFCE6A8E241B38094E23CD6DD5BCC787.e.246}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.113, chrome: {chromedriverVersion: 136.0.7103.94 (fa0be0b33deb..., userDataDir: C:\Users\RAJIB\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65054}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65054/devtoo..., se:cdpVersion: 136.0.7103.113, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (61661e8c39453064e647e625b2a6f110)] -&gt; css selector: [routerlink*=&apos;cart&apos;]]
-Session ID: 61661e8c39453064e647e625b2a6f110
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy16.click(Unknown Source)
-	at Automation.AbstructComponents.AbstructComponents.goToCartPage(AbstructComponents.java:54)
-	at Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest.placeOrder(SubmitOrderTest.java:38)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest#orderHistory</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Throwable: Method Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest.orderHistory() on instance Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest@6f8e8894 depends on not successfully finished methods 
-[Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest.placeOrder() on instance Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest@6f8e8894]
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 8 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest#placeOrder</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{password=Rajiv@123, email=rajiv09@yopmail.com, productName=ZARA COAT 3}</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Error Validation Check</h2><h3 id="m3">Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest#loginErrorCheck</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email and password.]
-	at Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest.loginErrorCheck(ErrorMessageTest.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest#loginErrorCheck</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Incorrect email or password.] but found [Incorrect email and password.]
-	at Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest.loginErrorCheck(ErrorMessageTest.java:29)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1575)
-... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest#productErrorCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Error Validation Check</h2><h3 id="m0">Automation.Tests.ErrorMessageTest#loginErrorCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">Automation.Tests.ErrorMessageTest#productErrorCheck</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

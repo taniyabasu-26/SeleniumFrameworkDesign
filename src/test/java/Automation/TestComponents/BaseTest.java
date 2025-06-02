@@ -36,8 +36,8 @@ public class BaseTest {
 			
 		//creating the object of Properties class
 		Properties properties = new Properties();
-		//creating the object of FileInputStream class and assing the path of Global Properties file
-		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Automation\\SeleniumFrameworkDesign\\Resources\\GlobalData.properties");
+		//creating the object of FileInputStream class and assing the path of Global Properties file 
+		FileInputStream file = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\Automation\\Resources\\GlobalData.properties");
 		//parsing the data from Global Properties file
 		properties.load(file);
 		String browserName = System.getProperty("browser") != null

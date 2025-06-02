@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest">
+      <class name="Automation.Tests.SubmitOrderTest">
         <methods>
-          <include name="placeOrder"/>
-          <include name="closeBrowser"/>
           <include name="orderHistory"/>
           <include name="launchApplication"/>
+          <include name="placeOrder"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest -->
+      </class> <!-- Automation.Tests.SubmitOrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -9,13 +9,13 @@
 
   <test thread-count="5" name="SubmitOrderCheck">
     <classes>
-            <class name="Automation.SeleniumFrameworkDesign.Tests.SubmitOrderTest"/>
+            <class name="Automation.Tests.SubmitOrderTest"/>
     </classes>
   </test> <!-- Test -->
   
   <test thread-count="5" name="ErrorValidationCheck">
     <classes>
-      <class name="Automation.SeleniumFrameworkDesign.Tests.ErrorMessageTest"/>
+      <class name="Automation.Tests.ErrorMessageTest"/>
       </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
