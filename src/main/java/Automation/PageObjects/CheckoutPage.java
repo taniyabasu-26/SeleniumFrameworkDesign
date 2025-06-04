@@ -21,15 +21,15 @@ public class CheckoutPage extends AbstructComponents {
 	
 	//declaring the locators for country dropdown
 	@FindBy(css="[placeholder='Select Country']")
-	WebElement country;
+	private	 WebElement country;
 	
 	//declaring the locator for selected country
 	@FindBy(xpath="//button[contains(@class,'ta-item')][2]")
-	WebElement selectCountry;
+	private WebElement selectCountry;
 	
 	//declaring the locator for submit button
 	@FindBy(css=".action__submit")
-	WebElement submit;	
+	private WebElement submit;	
 	
 	//declaring the locator for the country list 
 	By result =  By.cssSelector(".ta-results");

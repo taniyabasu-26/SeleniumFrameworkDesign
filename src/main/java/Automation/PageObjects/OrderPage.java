@@ -21,7 +21,7 @@ public class OrderPage extends AbstructComponents {
 	
 	//declaring the locators for cart products list
 	@FindBy(css="tr td:nth-child(3)")
-	List<WebElement> productNames;
+	private List<WebElement> productNames;
 	
 	//get the cart product list
 	public Boolean verifyOrderDisplay(String productName) {

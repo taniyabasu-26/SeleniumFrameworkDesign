@@ -19,7 +19,7 @@ public class SubmitPage extends AbstructComponents {
 		
 		//declaring the locator for confirmation message
 		@FindBy(className="hero-primary")
-		WebElement confirmationMSG;
+		private WebElement confirmationMSG;
 		
 		public String getConfirmationMsg() {			
 			return confirmationMSG.getText();

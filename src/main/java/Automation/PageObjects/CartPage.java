@@ -21,11 +21,11 @@ public class CartPage extends AbstructComponents {
 	
 	//declaring the locators for cart products list
 	@FindBy(css=".cartSection h3")
-	List<WebElement> cartProducts;
+	private List<WebElement> cartProducts;
 	
 	//declaring the locator for checkout button
 	@FindBy(css=".totalRow button")
-	WebElement checkout;
+	private WebElement checkout;
 	
 		
 	//declaring the locator to add to cart

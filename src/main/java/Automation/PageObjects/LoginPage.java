@@ -19,15 +19,15 @@ public class LoginPage extends AbstructComponents {
 	
 	//declaring the locators for login
 	@FindBy(id="userEmail")
-	WebElement userEmail;
+	private WebElement userEmail;
 	@FindBy(id="userPassword")
-	WebElement userPassword;
+	private WebElement userPassword;
 	@FindBy(id="login")
-	WebElement submit;
+	private WebElement submit;
 	
 	//declaring locator for Login Error Message
 	@FindBy(css="[class*='flyInOut']")
-	WebElement errorMsg;
+	private WebElement errorMsg;
 	
 	//setting the URL
 	public void url() {

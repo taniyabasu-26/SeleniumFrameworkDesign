@@ -21,11 +21,11 @@ public class ProductCataloge extends AbstructComponents {
 	
 	//declaring the locators for products list
 	@FindBy(css=".mb-3")
-	List<WebElement> products;
+	private List<WebElement> products;
 	
 	//declaring the locator for loader
 	@FindBy(css=".ng-animating")
-	WebElement loader;
+	private WebElement loader;
 	
 		
 	//declaring the locator to add to cart
