@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: TestSuite
+Test set: Automation.Cucumber.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.824 s -- in TestSuite
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 14.84 s -- in Automation.Cucumber.TestRunner

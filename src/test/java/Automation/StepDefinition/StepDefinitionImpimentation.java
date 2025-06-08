@@ -55,6 +55,11 @@ public class StepDefinitionImpimentation extends BaseTest {
 		driver.close();
 		}
 	
+	@Then("{string} message is displayed")
+	public void error_message_is_displayed(String errorMessage){
+		Assert.assertEquals(errorMessage, loginpage.getLoginErrorMsg());
+		driver.close();
+	}
 	
 
 }

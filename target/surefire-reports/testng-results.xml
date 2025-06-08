@@ -2,46 +2,46 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-08T15:09:50 IST" name="CucumberSuite" finished-at="2025-06-08T15:10:06 IST" duration-ms="15775">
+  <suite started-at="2025-06-08T21:18:17 IST" name="Surefire suite" finished-at="2025-06-08T21:18:32 IST" duration-ms="14218">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Automation.Cucumber.TestRunner@689604d9]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Automation.Cucumber.TestRunner@3f197a46]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-06-08T15:09:50 IST" name="RunCucumberTests" finished-at="2025-06-08T15:10:06 IST" duration-ms="15775">
+    <test started-at="2025-06-08T21:18:17 IST" name="Surefire test" finished-at="2025-06-08T21:18:32 IST" duration-ms="14218">
       <class name="Automation.Cucumber.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Automation.Cucumber.TestRunner@689604d9]" started-at="2025-06-08T15:09:50 IST" name="setUpClass" finished-at="2025-06-08T15:09:50 IST" duration-ms="490" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Automation.Cucumber.TestRunner@3f197a46]" started-at="2025-06-08T21:18:17 IST" name="setUpClass" finished-at="2025-06-08T21:18:18 IST" duration-ms="774" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@29149030]]>
+                <![CDATA[org.testng.TestRunner@1a6dc589]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Automation.Cucumber.TestRunner@689604d9]" started-at="2025-06-08T15:09:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-08T15:10:06 IST" duration-ms="15232" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Automation.Cucumber.TestRunner@3f197a46]" started-at="2025-06-08T21:18:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-06-08T21:18:32 IST" duration-ms="13364" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Positive Test of Submitting the order"]]>
+                <![CDATA["Negetive scenarios of login"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Purchase order from the Ecommerce site"]]>
+                <![CDATA["Validating the error message of login page"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Automation.Cucumber.TestRunner@689604d9]" started-at="2025-06-08T15:10:06 IST" name="tearDownClass" finished-at="2025-06-08T15:10:06 IST" duration-ms="18" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Automation.Cucumber.TestRunner@3f197a46]" started-at="2025-06-08T21:18:32 IST" name="tearDownClass" finished-at="2025-06-08T21:18:32 IST" duration-ms="32" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Automation.Cucumber.TestRunner -->
-    </test> <!-- RunCucumberTests -->
-  </suite> <!-- CucumberSuite -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
 </testng-results>

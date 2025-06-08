@@ -132,7 +132,7 @@
   </build>
   </profile>
   <profile>
-  <id>CucumberTestNG</id>
+  <id>CucumberTests</id>
   <build>
     <pluginManagement>    <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -141,9 +141,9 @@
         <artifactId>maven-surefire-plugin</artifactId>
         <version>3.5.3</version>
         <configuration>
-          <suiteXmlFiles>
-            <suiteXmlFile>TestSuites/CucumberTestNG.xml</suiteXmlFile>
-          </suiteXmlFiles>
+          <includes>
+            <include>**/TestRunner.java</include>
+          </includes>
         </configuration>
       </plugin>
       </plugins>
