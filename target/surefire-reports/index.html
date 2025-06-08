@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,8 +38,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-failed">Suite</span>
+            <a href="#" panel-name="suite-CucumberSuite" class="navigator-link">
+              <span class="suite-name border-passed">CucumberSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,37 +49,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\RAJIB\eclipse-workspace\SeleniumFrameworkDesign\TestSuites\testng.xml</span>
+                  <a href="#" panel-name="test-xml-CucumberSuite" class="navigator-link ">
+                    <span>C:\Users\RAJIB\eclipse-workspace\SeleniumFrameworkDesign\TestSuites\CucumberTestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                  <a href="#" panel-name="testlist-CucumberSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                  <a href="#" panel-name="group-CucumberSuite" class="navigator-link ">
                     <span>1 group</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" panel-name="times-CucumberSuite" class="navigator-link ">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" panel-name="reporter-CucumberSuite" class="navigator-link ">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" panel-name="ignored-methods-CucumberSuite" class="navigator-link ">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" panel-name="chronological-CucumberSuite" class="navigator-link ">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -92,40 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,  1 skipped,  </span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CucumberSuite" class="hide-methods passed suite-CucumberSuite"> (hide)</a> <!-- hide-methods passed suite-CucumberSuite -->
+                      <a href="#" panel-name="suite-CucumberSuite" class="show-methods passed suite-CucumberSuite"> (show)</a> <!-- show-methods passed suite-CucumberSuite -->
                     </span>
-                    <div class="method-list-content failed suite-Suite">
+                    <div class="method-list-content passed suite-CucumberSuite">
                       <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Automation.Tests.ErrorMessageTest" class="method navigator-link" hash-for-method="loginErrorCheck">loginErrorCheck</a> <!-- method navigator-link -->
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CucumberSuite" title="Automation.Cucumber.TestRunner" class="method navigator-link" hash-for-method="runScenario(&quot;Positive Test of Submitting the order&quot;, &quot;Purchase order from the Ecommerce site&quot;)">runScenario("Positive Test of Submitting the order", "Purchase order from the Ecommerce site")</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Automation.Tests.ErrorMessageTest" class="method navigator-link" hash-for-method="productErrorCheck">productErrorCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Suite -->
-                  </li>
-                  <li>
-                    <span class="method-list-title skipped">Retried methods</span>
-                    <span class="show-or-hide-methods skipped">
-                      <a href="#" panel-name="suite-Suite" class="hide-methods skipped suite-Suite"> (hide)</a> <!-- hide-methods skipped suite-Suite -->
-                      <a href="#" panel-name="suite-Suite" class="show-methods skipped suite-Suite"> (show)</a> <!-- show-methods skipped suite-Suite -->
-                    </span>
-                    <div class="method-list-content skipped suite-Suite">
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="Automation.Tests.ErrorMessageTest" class="method navigator-link" hash-for-method="loginErrorCheck">loginErrorCheck</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content skipped suite-Suite -->
+                    </div> <!-- method-list-content passed suite-CucumberSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -136,286 +117,133 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-failed">
+        <div panel-name="suite-CucumberSuite" class="panel CucumberSuite">
+          <div class="suite-CucumberSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">Automation.Tests.ErrorMessageTest</span>
+              <img src="passed.png"/>
+              <span class="class-name">Automation.Cucumber.TestRunner</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginErrorCheck">
-                  </a> <!-- loginErrorCheck -->
-                  <span class="method-name">loginErrorCheck</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (383, 706)
-  (Session info: chrome=137.0.7151.55)
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5a10f6d59729c50d0423740b6a239132, clickElement {id=f.EE9EA64BB497DAAF8BFD2BE9C0826FB5.d.BDE1A6D4C2666BE363D6F1F0108FBE2A.e.10}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\RAJIB\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57596/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (5a10f6d59729c50d0423740b6a239132)] -&gt; id: login]
-Session ID: 5a10f6d59729c50d0423740b6a239132
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Automation.PageObjects.LoginPage.loginActions(LoginPage.java:41)
-	at Automation.Tests.ErrorMessageTest.loginErrorCheck(ErrorMessageTest.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="productErrorCheck">
-                  </a> <!-- productErrorCheck -->
-                  <span class="method-name">productErrorCheck</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (383, 600)
-  (Session info: chrome=137.0.7151.55)
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9658842e699b11497a0bead430696934, clickElement {id=f.FF123766282D6C3A886158A5004B4174.d.A0B88B6FBFE20D9E2C64B82DDE5E2119.e.10}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\RAJIB\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57616}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57616/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (9658842e699b11497a0bead430696934)] -&gt; id: login]
-Session ID: 9658842e699b11497a0bead430696934
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Automation.PageObjects.LoginPage.loginActions(LoginPage.java:41)
-	at Automation.Tests.ErrorMessageTest.productErrorCheck(ErrorMessageTest.java:40)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
+                  <a name="runScenario(&quot;Positive Test of Submitting the order&quot;, &quot;Purchase order from the Ecommerce site&quot;)">
+                  </a> <!-- runScenario("Positive Test of Submitting the order", "Purchase order from the Ecommerce site") -->
+                  <span class="method-name">runScenario</span>
+                  <span class="parameters">("Positive Test of Submitting the order","Purchase order from the Ecommerce site")</span>
+                  <em>
+(Runs Cucumber Scenarios)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">Automation.Tests.ErrorMessageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginErrorCheck">
-                  </a> <!-- loginErrorCheck -->
-                  <span class="method-name">loginErrorCheck</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (383, 704)
-  (Session info: chrome=137.0.7151.55)
-Build info: version: &apos;4.31.0&apos;, revision: &apos;1ef9f18787*&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.12&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b9803299fbb8a144699bc1bfb705b317, clickElement {id=f.E07BB35C3CED1ADE2D5DECEC2F0F4276.d.345B0957F4DA47D1A1DB97565FFDD581.e.10}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 137.0.7151.55, chrome: {chromedriverVersion: 137.0.7151.55 (254bc711794d..., userDataDir: C:\Users\RAJIB\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57575}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57575/devtoo..., se:cdpVersion: 137.0.7151.55, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (b9803299fbb8a144699bc1bfb705b317)] -&gt; id: login]
-Session ID: b9803299fbb8a144699bc1bfb705b317
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at jdk.proxy2/jdk.proxy2.$Proxy12.click(Unknown Source)
-	at Automation.PageObjects.LoginPage.loginActions(LoginPage.java:41)
-	at Automation.Tests.ErrorMessageTest.loginErrorCheck(ErrorMessageTest.java:28)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:842)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-        </div> <!-- panel Suite -->
-        <div panel-name="test-xml-Suite" class="panel">
+          </div> <!-- suite-CucumberSuite-class-passed -->
+        </div> <!-- panel CucumberSuite -->
+        <div panel-name="test-xml-CucumberSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\RAJIB\eclipse-workspace\SeleniumFrameworkDesign\TestSuites\testng.xml</span>
+            <span class="header-content">C:\Users\RAJIB\eclipse-workspace\SeleniumFrameworkDesign\TestSuites\CucumberTestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite parallel=&quot;tests&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;Automation.TestComponents.Listeners&quot;/&gt;
-  &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Submit Order Test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;CucumberSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;RunCucumberTests&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Automation.Tests.SubmitOrderTest&quot;/&gt;
+      &lt;class name=&quot;Automation.Cucumber.TestRunner&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Submit Order Test --&gt;
-  &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Error Validation Check&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;Automation.Tests.ErrorMessageTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Error Validation Check --&gt;
-&lt;/suite&gt; &lt;!-- Suite --&gt;
+  &lt;/test&gt; &lt;!-- RunCucumberTests --&gt;
+&lt;/suite&gt; &lt;!-- CucumberSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-Suite" class="panel">
+        <div panel-name="testlist-CucumberSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for Suite</span>
+            <span class="header-content">Tests for CucumberSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Submit Order Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Error Validation Check (1 class)</span>
+                <span class="test-name">RunCucumberTests (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-Suite" class="panel">
+        <div panel-name="group-CucumberSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for Suite</span>
+            <span class="header-content">Groups for CucumberSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="test-group">
-              <span class="test-group-name">ErrorHandleing</span>
+              <span class="test-group-name">cucumber</span>
               <br/>
               <div class="method-in-group">
-                <span class="method-in-group-name">loginErrorCheck</span>
+                <span class="method-in-group-name">runScenario</span>
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-Suite" class="panel">
+        <div panel-name="times-CucumberSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for Suite</span>
+            <span class="header-content">Times for CucumberSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Suite');
-function tableData_Suite() {
+suiteTableInitFunctions.push('tableData_CucumberSuite');
+function tableData_CucumberSuite() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'productErrorCheck')
-data.setCell(0, 2, 'Automation.Tests.ErrorMessageTest')
-data.setCell(0, 3, 1407);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'loginErrorCheck')
-data.setCell(1, 2, 'Automation.Tests.ErrorMessageTest')
-data.setCell(1, 3, 1252);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'loginErrorCheck')
-data.setCell(2, 2, 'Automation.Tests.ErrorMessageTest')
-data.setCell(2, 3, 1236);
-window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+data.setCell(0, 1, 'runScenario')
+data.setCell(0, 2, 'Automation.Cucumber.TestRunner')
+data.setCell(0, 3, 15232);
+window.suiteTableData['CucumberSuite']= { tableData: data, tableDiv: 'times-div-CucumberSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 14 seconds</span>
-              <div id="times-div-Suite">
-              </div> <!-- times-div-Suite -->
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-CucumberSuite">
+              </div> <!-- times-div-CucumberSuite -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-Suite" class="panel">
+        <div panel-name="reporter-CucumberSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for Suite</span>
+            <span class="header-content">Reporter output for CucumberSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-Suite" class="panel">
+        <div panel-name="ignored-methods-CucumberSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-Suite" class="panel">
+        <div panel-name="chronological-CucumberSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Automation.Tests.ErrorMessageTest</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
+              <div class="chronological-class-name">Automation.Cucumber.TestRunner</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUpClass(org.testng.TestRunner@29149030)</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-method before -->
+              </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">loginErrorCheck</span>
-                <span class="method-start">4387 ms</span>
+                <span class="method-name">runScenario("Positive Test of Submitting the order", "Purchase order from the Ecommerce site")</span>
+                <span class="method-start">502 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">5627 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">5730 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">loginErrorCheck</span>
-                <span class="method-start">8691 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">10047 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchApplication</span>
-                <span class="method-start">10123 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">productErrorCheck</span>
-                <span class="method-start">12988 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">14497 ms</span>
-              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDownClass</span>
+                <span class="method-start">15737 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
